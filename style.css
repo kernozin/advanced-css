@@ -1,0 +1,25 @@
+a[href*="google.com"] {
+    color: green;
+}
+
+a[href*="link-group.eu"] {
+    color: red;
+}
+
+#second-div p:nth-child(odd) {
+    color: red;
+}
+
+#second-div p:nth-child(even) {
+    color: blue;
+}
+
+#first-div p:nth-child(2):after,
+#first-div p:nth-child(3):after {
+    content: ' NEW';
+    color: yellow;
+}
+
+body p:nth-child(8):hover {
+    font-style: italic;
+}
